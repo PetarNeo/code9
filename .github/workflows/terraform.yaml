@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - s3-site
+      - s3-site-using-module
 
 jobs:
   s3-site-branch-job:
