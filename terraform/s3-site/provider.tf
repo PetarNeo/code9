@@ -15,7 +15,7 @@ terraform {
       version = "~> 5.6.2"
     }
   }
-    backend "s3"{
+  backend "s3"{
     bucket = "s3-state-petar"
     key = "terraform/s3-site"
     region = "us-east-1"
